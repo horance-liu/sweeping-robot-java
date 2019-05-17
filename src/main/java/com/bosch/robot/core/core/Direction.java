@@ -1,4 +1,4 @@
-package com.bosch.robot;
+package com.bosch.robot.core.core;
 
 public enum Direction {
   EAST(1, 0), SOUTH(0, -1), WEST(-1, 0), NORTH(0, 1);

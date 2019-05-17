@@ -1,4 +1,4 @@
-package com.bosch.robot;
+package com.bosch.robot.core.core;
 
 public class Position {
   private Point point;

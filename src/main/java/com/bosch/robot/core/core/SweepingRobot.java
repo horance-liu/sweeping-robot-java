@@ -1,4 +1,6 @@
-package com.bosch.robot;
+package com.bosch.robot.core.core;
+
+import com.bosch.robot.core.cmd.Command;
 
 public class SweepingRobot {
   private Position pos = new Position(0, 0, Direction.NORTH);

@@ -1,4 +1,4 @@
-package com.bosch.robot;
+package com.bosch.robot.core.core;
 
 public class Point {
   private int x;
@@ -20,5 +20,10 @@ public class Point {
       return x == other.x && y == other.y;
     }
     return false;
+  }
+
+  @Override
+  public int hashCode() {
+    return 17 * x + y;
   }
 }
